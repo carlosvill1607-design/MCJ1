@@ -111,3 +111,8 @@ nav.main ul{flex-direction:column;gap:0;padding:.5rem 1.25rem 1.2rem}nav.main li
 .art-cta h2{margin:0 0 .4rem;font-size:1.6rem;max-width:none}.legal .art-cta p{color:color-mix(in srgb,var(--on-green) 90%,transparent);margin:0 0 1.2rem}
 @media (max-width:900px){.posts{grid-template-columns:1fr}.post{flex-direction:row}.post-img{flex:0 0 38%}.post-img img{height:100%;aspect-ratio:auto}}
 @media (max-width:520px){.post{flex-direction:column}.post-img{flex:none}.post-img img{aspect-ratio:16/10;height:auto}}
+.brand{min-width:0}.brand img{flex:none}
+.brand span{font-size:1.35rem;letter-spacing:.04em;line-height:1.1}
+.welcome{font-family:var(--serif);font-size:clamp(1.3rem,3vw,1.7rem);font-weight:500;margin-top:1.2rem;color:var(--ink)}
+.hero .welcome+.lead{margin-top:.7rem}
+@media (max-width:520px){.brand span{font-size:1.05rem;letter-spacing:.03em}}
