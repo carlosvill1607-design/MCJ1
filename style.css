@@ -30,7 +30,7 @@ nav a{text-decoration:none;font-weight:500;font-size:.95rem;color:var(--muted)}n
 .menu-btn span{display:block;width:20px;height:2px;background:currentColor;margin:5px auto}
 .hero{padding-top:clamp(3rem,6vw,5rem)}
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,6vw,4.5rem);align-items:center}
-.hero h1{font-size:clamp(2.5rem,6vw,4.8rem);font-style:italic}
+.hero h1{font-size:clamp(2.5rem,6vw,4.8rem)}
 .cta-row{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2rem}
 .hero .note{margin-top:1rem;font-size:.92rem;color:var(--muted)}
 .collage{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
