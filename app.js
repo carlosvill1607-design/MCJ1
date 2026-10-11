@@ -1,5 +1,5 @@
 (function(){
-var GA_ID="G-XXXXXXXXXX"; /* Reemplazar por el ID real de Google Analytics 4 */
+var GA_ID="G-2GYPKD69XD"; /* Reemplazar por el ID real de Google Analytics 4 */
 var KEY="mcj_cookies",d=document;
 function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
 function loadGA(){
